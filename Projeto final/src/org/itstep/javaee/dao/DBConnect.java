@@ -10,7 +10,7 @@ public class DBConnect {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			cons = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/quentinha?useTimezone=true&serverTimezone=UTC&useSSL=false", "root",
-					"Leo76987878");
+					"root");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
